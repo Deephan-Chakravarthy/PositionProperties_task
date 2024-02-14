@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Property</title>
+    <style>
+        div{
+            font-size: 30px;
+        }
+        .parent{
+    background-color: blue;
+    font-size: 30px;
+    position:relative;
+}
+
+.child1{
+    background-color: yellow;
+    font-size: 30px;
+    position:absolute;
+    top: 50px;
+    left:20px
+   
+}
+
+.child2{
+    background-color: red;
+    font-size: 30px;
+}
+</style>
+
+</head>
+<body>
+<div> <b>Absolute </b></div><br>
+<div>a.They are  affected by top ,left, bottom or right <br>
+    b.It will affect the document flow<br>
+    c.no space is created <br>
+    d.it will be positioned w.r.t first positioned element<br>
+    
+    2 cases are there<br>
+    *absolute position property has to be used along with the combination of the relative<br>
+    *ex:if child1has to be absolute means parent has to be relative<br>
+
+    
+     <br><br><b>Example:</b>
+     </div><br>
+     <div
+     class="parent">This is parent
+        <div class="child1">This is child 1</div>
+        <div class="child2">This is child 2</div>
+    </div><br><br>
+
+<a href="./index.html" target="_parent">Go back to position properties </a>
+</body>
+</html>
